@@ -1,2 +1,2 @@
-# 100-days-of-code
- Challenge 100 (or almost) day of code.
+# 50-days-of-code
+ Challenge 50 (or almost) projects.
