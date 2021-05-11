@@ -1,10 +1,13 @@
 # caesar-cipher
+
+In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques.  
+
 #### Code
 
 ```python
 from string import ascii_lowercase # ascii letters in lowercase
 
-class CeaserCipher:
+class CeasarCipher:
     def __init__(self, shift):
         self.shift = shift
         self.alphabeth = ascii_lowercase # normal alphabeth
@@ -56,7 +59,7 @@ class CeaserCipher:
 ```
 
 ```python
-cipher = CeaserCipher(shift=1)
+cipher = CeasarCipher(shift=1)
 print(cipher.encrypt("attack the enemy")) # result buubdl#uif#fofnz
 print(cipher.decrypt("buubdl#uif#fofnz")) # result attack the enemy
 ```
